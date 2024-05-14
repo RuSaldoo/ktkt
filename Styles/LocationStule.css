@@ -1,0 +1,32 @@
+main{
+    height: 100%;
+}
+
+.BackGirl{
+    position: relative;
+    height: fit-content;
+    width: 100%;
+    margin-bottom: -10px;
+}
+
+.map{
+    height: 60vh;
+    width: 100%;
+}
+
+.nadp{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    margin-top: 14%;
+
+    font-family: Poppins;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 90px;
+    z-index: 1;
+}
+
+.main_frame{
+    margin-top: 104px;
+}

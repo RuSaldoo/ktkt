@@ -1,0 +1,57 @@
+main {
+    padding-top: 104px;
+    background: rgba(255, 254, 254, 0.86);
+}
+
+h1 {
+    font-family: Poppins;
+    text-decoration: none;
+    color: rgba(186, 110, 78, 1);
+}
+
+.forma {
+    text-align: center;
+    margin: 5%;
+    z-index: 2;
+}
+
+input {
+    border: 1px solid rgba(186, 110, 78, 0.53);
+    border-radius: 10px;
+    width: 70%;
+    height: 82px;
+    margin: 20px;
+    font-size: x-large;
+    box-sizing: border-box;
+    padding: 3%;
+}
+
+.coment{
+    height: 185px;
+}
+
+.sub{
+    width: 256px;
+    height: 59px;
+    font-size: x-large;
+    box-sizing: border-box;
+    padding: 1%;
+}
+
+.forma_com{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 80%;
+
+    z-index: 3;
+}
+
+.bg_cup{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}

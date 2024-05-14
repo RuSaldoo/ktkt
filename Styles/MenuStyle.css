@@ -1,0 +1,29 @@
+main{
+    margin-top: 104px;
+}
+
+.menu_frame{
+    background-image: url(../Contents/bg_menu.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-height: 1980px;
+    height: 100%;
+    margin-bottom: -10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#MENUS{
+    font-family: Poppins;
+    font-size: 100px;
+    text-align: center;
+    color: rgba(117, 41, 0, 1);
+    padding-top: 98px;
+    letter-spacing: 50px;
+}
+
+.menu{
+    width: 80%;
+}
